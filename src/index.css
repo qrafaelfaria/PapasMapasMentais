@@ -8,53 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Cartas Cigano Theme: Purple, Beige, Gold */
-    --background: 35 30% 95%;
-    --foreground: 260 20% 20%;
+    /* 50 Papas em Mapas Mentais Theme: Cream, Gold, Black */
+    --background: 40 30% 94%; /* Warm cream background */
+    --foreground: 240 10% 5%; /* Deep black text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 260 20% 20%;
+    --card: 40 20% 97%; /* Off-white card */
+    --card-foreground: 240 10% 5%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 260 20% 20%;
+    --popover: 40 20% 97%;
+    --popover-foreground: 240 10% 5%;
 
-    --primary: 270 60% 40%; /* Deep Violet */
-    --primary-foreground: 0 0% 100%;
+    --primary: 40 70% 45%; /* Rich gold */
+    --primary-foreground: 240 10% 5%;
 
-    --secondary: 35 40% 92%; /* Light Beige */
-    --secondary-foreground: 270 60% 30%;
+    --secondary: 40 40% 90%; /* Light cream */
+    --secondary-foreground: 40 70% 35%;
 
-    --muted: 35 20% 88%;
-    --muted-foreground: 260 10% 40%;
+    --muted: 40 25% 88%;
+    --muted-foreground: 240 5% 30%;
 
-    --accent: 280 70% 35%; /* Plum */
+    --accent: 40 70% 40%; /* Deep gold */
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 70% 50%;
+    --destructive: 0 60% 45%;
     --destructive-foreground: 0 0% 100%;
 
-    --urgency: 280 70% 35%; /* Plum for Urgency */
-    --urgency-foreground: 0 0% 100%;
+    --urgency: 40 70% 45%; /* Gold for urgency */
+    --urgency-foreground: 240 10% 5%;
 
-    --success: 165 40% 40%; /* Mystical Teal */
+    --success: 120 30% 40%;
     --success-foreground: 0 0% 100%;
 
-    --gold: 40 80% 55%; /* Warm Gold */
-    --gold-bright: 40 90% 70%;
-    --gold-deep: 40 70% 40%;
+    --gold: 40 70% 50%; /* Primary gold */
+    --gold-bright: 40 85% 65%;
+    --gold-deep: 40 60% 35%;
 
-    --border: 260 15% 85%;
-    --input: 260 15% 85%;
-    --ring: 270 60% 40%;
+    --border: 40 20% 80%;
+    --input: 40 20% 80%;
+    --ring: 40 70% 45%;
 
     --radius: 1rem;
 
-    --gradient-gold: linear-gradient(135deg, hsl(40 80% 70%), hsl(40 80% 50%));
-    --gradient-urgency: linear-gradient(135deg, hsl(280 70% 45%), hsl(280 70% 30%));
-    --gradient-dark: linear-gradient(180deg, hsl(270 60% 25%), hsl(270 60% 15%));
-    --shadow-gold: 0 10px 40px -10px hsl(40 80% 55% / 0.4);
-    --shadow-urgency: 0 10px 30px -8px hsl(280 70% 35% / 0.4);
-    --shadow-card: 0 8px 30px -10px hsl(260 20% 20% / 0.12);
+    --gradient-gold: linear-gradient(135deg, hsl(40 85% 65%), hsl(40 60% 35%));
+    --gradient-urgency: linear-gradient(135deg, hsl(40 70% 50%), hsl(40 60% 35%));
+    --gradient-dark: linear-gradient(180deg, hsl(240 10% 15%), hsl(240 10% 5%));
+    --shadow-gold: 0 10px 40px -10px hsl(40 70% 50% / 0.4);
+    --shadow-urgency: 0 10px 30px -8px hsl(40 70% 50% / 0.4);
+    --shadow-card: 0 8px 30px -10px hsl(240 10% 5% / 0.15);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

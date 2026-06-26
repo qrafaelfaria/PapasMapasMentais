@@ -307,7 +307,7 @@ const Index = () => {
               (se comprar depois não ganha)
             </p>
             
-            <h2 className={`${HeadlineFont} text-2xl sm:text-3xl text-gold leading-tight uppercase`}>
+            <h2 className={`${HeadlineFont} text-2xl sm:text-3xl text-white leading-tight uppercase`}>
               BÔNUS DISPONÍVEIS SOMENTE NO <br />
               PLANO COMPLETO
             </h2>
