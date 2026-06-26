@@ -102,6 +102,7 @@ const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPremiumModalOpen, setIsPremiumModalOpen] = useState(false);
   const carouselRef = useRef<HTMLDivElement>(null);
+  const carouselRef2 = useRef<HTMLDivElement>(null);
 
   const handleBasicClick = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -128,6 +129,13 @@ const Index = () => {
       const scrollAmount = currentSlide * (carouselRef.current.children[0].clientWidth + 16); // 16px de gap
       carouselRef.current.scrollTo({
         left: scrollAmount,
+        behavior: "smooth",
+      });
+    }
+    if (carouselRef2.current) {
+      const scrollAmount2 = currentSlide * (carouselRef2.current.children[0].clientWidth + 16); // 16px de gap
+      carouselRef2.current.scrollTo({
+        left: scrollAmount2,
         behavior: "smooth",
       });
     }
@@ -292,13 +300,27 @@ const Index = () => {
               É só imprimir e usar.
             </p>
           </div>
+
+          {/* Second Carousel */}
+          <section className="py-6 mt-2">
+            <div ref={carouselRef2} className="mt-4 -mx-4 px-4 flex gap-4 overflow-x-auto scrollbar-hide snap-x snap-mandatory">
+              {tshirts.map((t, index) => (
+                <div
+                  key={`${t.alt}-2-${index}`}
+                  className="snap-center shrink-0 w-[100%] aspect-[16/9] rounded-2xl overflow-hidden"
+                >
+                  <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
+                </div>
+              ))}
+            </div>
+          </section>
         </section>
 
         {/* BONUSES */}
         <section className="py-6 mt-4">
           <div className="bg-accent -mx-4 px-6 py-10 mb-8 text-center text-white">
             <p className="text-lg sm:text-xl font-medium leading-tight mb-6">
-              🎁 Além dos <strong> 36 Mapas Mentais das Cartas do Baralho Cigano</strong>, ao adquirir o <br />
+              🎁 Além dos <strong> 50 Mapas Mentais dos Papas Católicos</strong>, ao adquirir o <br />
               Plano Completo você vai levar <strong>3 SUPER BÔNUS!</strong>
             </p>
             
