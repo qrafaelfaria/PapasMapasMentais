@@ -12,13 +12,14 @@ import tshirt6 from "@/assets/Papa 06.png";
 import HeroCopa from "@/assets/HeroCigano.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
-import Feedback01 from "@/assets/Feedback01.png";
-import Feedback02 from "@/assets/Feedback02.png";
-import Feedback03 from "@/assets/Feedback03.png";
+import Feedback01 from "@/assets/Relato01.png";
+import Feedback02 from "@/assets/Relato02.png";
+import Feedback03 from "@/assets/Relato03.png";
+import Feedback04 from "@/assets/Relato04.png";
 import GarantiaImage from "@/assets/Garantia.webp";
-import Bonus01 from "@/assets/GuiaBonus.png";
-import Bonus02 from "@/assets/PolarBonus.png";
-import Bonus03 from "@/assets/TiragensBonus.png";
+import Bonus01 from "@/assets/CalendarioBonus.png";
+import Bonus02 from "@/assets/MarcadorBonus.png";
+import Bonus03 from "@/assets/ImpressaoBonus.png";
 
 const CHECKOUT_URL = "#checkout";
 const PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/tJV7JGyD6dd";
@@ -62,24 +63,24 @@ const tshirts = [
 
 const bonuses = [
   {
-    title: "Guia de Combinações",
-    desc: "Veja como as cartas se combinam entre si e o significado que cada junção assume na leitura.",
+    title: "Calendário dos Papas Católicos",
+    desc: "Calendário Premium tematizado com os últimos 12 Papas Católicos pronto para imprimir e usar.",
     old: "R$9,90",
     imageSrc: Bonus01,
     isBonus: true,
   },
   {
-    title: "Modelos de Tiragens",
-    desc: "Receba modelos prontos de tiragens com o passo a passo de como dispor e interpretar cada carta em cada posição.",
+    title: "Marcadores Premium dos Papas Católicos",
+    desc: "Marcadores Premium de 5 x 15 cm prontos para imprimir e usar.",
     old: "R$14,90",
-    imageSrc: Bonus03,
+    imageSrc: Bonus02,
     isBonus: true,
   },
   {
-    title: "Guia das Polaridades das Cartas",
-    desc: "Descubra quais cartas são positivas, negativas e neutras — e como isso muda completamente a leitura das combinações.",
+    title: "Guia da Impressão Perfeita",
+    desc: "O passo a passo completo para imprimir seus materiais com qualidade profissional: papel recomendado, gramatura ideal, plastificação, como recortar e dicas extras de cuidados.",
     old: "R$24,90",
-    imageSrc: Bonus02,
+    imageSrc: Bonus03,
     isBonus: true,
   },
 ];
@@ -95,6 +96,7 @@ const feedbackImages = [
   { src: Feedback01, alt: "Feedback de cliente 1" },
   { src: Feedback02, alt: "Feedback de cliente 2" },
   { src: Feedback03, alt: "Feedback de cliente 3" },
+  { src: Feedback04, alt: "Feedback de cliente 4" },
 ];
 
 const Index = () => {
@@ -357,7 +359,7 @@ const Index = () => {
         </section>
 
 {/* TESTIMONIALS CAROUSEL */}
-        <section className="py-10 border-t border-border">
+        <section className="py-10">
           <h2 className={`${HeadlineFont} text-3xl sm:text-4xl text-center text-foreground`}>
             Depoimentos de Quem Já Usou
           </h2>
@@ -367,7 +369,7 @@ const Index = () => {
             {feedbackImages.map((f, index) => (
               <div
                 key={index}
-                className="snap-center shrink-0 w-[85%] aspect-[3/4] rounded-2xl overflow-hidden bg-white border border-border shadow-card-dark"
+                className="snap-center shrink-0 w-[85%] rounded-2xl overflow-hidden"
               >
                 <img src={f.src} alt={f.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
