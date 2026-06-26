@@ -2,12 +2,12 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { Play, Check, X, ChevronDown, ChevronsDown, Flame, Clock, ShieldCheck, Zap, BookOpen, Trophy, Crown, Library, Dices, Palette, Type, CheckSquare, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import tshirt1 from "@/assets/01.png";
-import tshirt2 from "@/assets/02.png";
-import tshirt3 from "@/assets/03.png";
-import tshirt4 from "@/assets/04.png";
-import tshirt5 from "@/assets/05.png";
-import tshirt6 from "@/assets/06.png";
+import tshirt1 from "@/assets/Papa 01.png";
+import tshirt2 from "@/assets/Papa 02.png";
+import tshirt3 from "@/assets/Papa 03.png";
+import tshirt4 from "@/assets/Papa 04.png";
+import tshirt5 from "@/assets/Papa 05.png";
+import tshirt6 from "@/assets/Papa 06.png";
 
 import HeroCopa from "@/assets/HeroCigano.png";
 import BonusCard from "@/components/BonusCard";
@@ -150,7 +150,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">36 Cartas do Baralho Cigano</span> em Mapas Mentais
+            <span className="text-foreground">50 Papas Católicos</span> em Mapas Mentais
             <br />
           </h1>
 
@@ -171,7 +171,7 @@ const Index = () => {
 
             <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
               <p className="font-medium text-lg sm:text-lg">
-               Aprenda a ler e interpretar todas as 36 Cartas do Baralho Cigano de forma Simples, Visual e Organizada.
+               Conheça a história, as contribuições, as principais realizações, os desafios e o legado dos grandes Papas Católicos de forma simples, visual e organizada.
               </p>
             </div>
           </div>
@@ -214,7 +214,7 @@ const Index = () => {
               },
               { 
                 icon: "✂️", 
-                title: "Cartas e seus significados explicados de forma simples.",
+                title: "História dos Papas Católicos com linha do tempo e contribuições para a Igreja.",
               },
               { 
                 icon: "✏️", 
@@ -222,7 +222,7 @@ const Index = () => {
               },
               { 
                 icon: "✅", 
-                title: "Ideal para estudos.",
+                title: "Ideal para estudo, catequese e formação católica.",
               },
             ].map((item, idx) => (
               <div 
@@ -260,13 +260,12 @@ const Index = () => {
         <section className="mt-4">
           <div className="space-y-3">
             {[
-              { emoji: "✅", text: "36 Mapas mentais prontos das cartas do baralho cigano." },
-              { emoji: "✅", text: "Significado explicado de forma simples." },
-              { emoji: "✅", text: "Palavras-chave, pontos positivos e desafios." },
-              { emoji: "✅", text: "Significado geral e conselho." },
-              { emoji: "✅", text: "Interpretação no amor." },
-              { emoji: "✅", text: "Interpretação no financeiro." },
-              { emoji: "✅", text: "Interpretação na espiritualidade." },
+              { emoji: "✅", text: "50 Mapas mentais prontos dos principais papas católicos." },
+              { emoji: "✅", text: "Suas contribuições para a Igreja." },
+              { emoji: "✅", text: "Principais realizações e desafios enfrentados." },
+              { emoji: "✅", text: "Eventos marcantes e contexto histórico." },
+              { emoji: "✅", text: "Legado deixado e frase marcante." },
+              { emoji: "✅", text: "Linha do tempo." },
               { emoji: "✅", text: "Material em PDF para acessar, estudar e imprimir." },
               { emoji: "🎁", text: "Bônus exclusivos no Plano Completo." },
             ].map((item, idx) => (
