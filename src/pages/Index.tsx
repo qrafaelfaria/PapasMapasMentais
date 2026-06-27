@@ -9,7 +9,7 @@ import tshirt4 from "@/assets/Papa 04.png";
 import tshirt5 from "@/assets/Papa 05.png";
 import tshirt6 from "@/assets/Papa 06.png";
 
-import HeroCopa from "@/assets/HeroCigano.png";
+import HeroCopa from "@/assets/HeroPapa.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
 import Feedback01 from "@/assets/Relato01.png";
@@ -160,7 +160,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">50 Papas Católicos</span> em Mapas Mentais
+            <span className="text-foreground">Entenda a História de cada Papa</span> da Igreja Católica
             <br />
           </h1>
 
