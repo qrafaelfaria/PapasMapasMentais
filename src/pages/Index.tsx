@@ -531,7 +531,7 @@ const Index = () => {
 
         <footer className="py-8 text-center text-xs text-muted-foreground border-t border-border mt-10">
           <p>
-            © {new Date().getFullYear()} Artes Festa Junina · Todos os direitos reservados
+            © {new Date().getFullYear()} Todos os direitos reservados
           </p>
         </footer>
       </div>
