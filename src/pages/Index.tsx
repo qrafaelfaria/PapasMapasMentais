@@ -391,7 +391,7 @@ const Index = () => {
                 <span className="text-4xl font-extrabold text-foreground">R$10,00</span>
               </div>
               <ul className="mt-4 space-y-2 text-sm text-left self-start">
-                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 36 Mapas Mentais das Cartas do Baralho Cigano</li>
+                <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> 50 Mapas Mentais dos Papas Católicos</li>
                 <li className="flex items-start gap-2"><Check className="w-4 h-4 text-muted-foreground mt-0.5" /> Material em PDF para acessar e estudar</li>
                 <li className="flex items-start gap-2"><X className="w-4 h-4 text-destructive mt-0.5" /> Não inclui os bônus do Plano Completo</li>
               </ul>
@@ -445,12 +445,12 @@ const Index = () => {
 
                 <ul className="mt-5 space-y-2.5 text-medium text-left self-start">
                   {[
-                    { text: "36 Mapas Mentais das Cartas do Baralho Cigano", isBonus: false },
+                    { text: "50 Mapas Mentais dos Papas Católicos", isBonus: false },
                     { text: "Material em PDF para acessar e estudar", isBonus: false },
-                    { text: "Cartas e seus significados explicados de forma simples.", isBonus: false },
-                    { text: "Guia de Combinações", isBonus: true, bonusNum: 1 },
-                    { text: "Modelos de Tiragens", isBonus: true, bonusNum: 2 },
-                    { text: "Guia das Polaridades das Cartas", isBonus: true, bonusNum: 3 },
+                    { text: "Papas Católicos e suas histórias explicadas de forma simples e visual.", isBonus: false },
+                    { text: "Calendário dos Papas Católicos", isBonus: true, bonusNum: 1 },
+                    { text: "Marcadores Premium dos Papas Católicos", isBonus: true, bonusNum: 2 },
+                    { text: "Guia da Impressão Perfeira", isBonus: true, bonusNum: 3 },
                     { text: "Envio imediato por e-mail (PDF pronto para imprimir)", isBonus: false, },
                     { text: "Acesso vitalício ao material", isBonus: false, },
                   ].map((item, idx) => (
