@@ -333,7 +333,7 @@ const Index = () => {
             </p>
             
             <h2 className={`${HeadlineFont} text-2xl sm:text-3xl text-white leading-tight uppercase`}>
-              BÔNUS DISPONÍVEIS SOMENTE NO <br />
+              BÔNUS DISPONÍVEIS SOMENTE NO aaa <br />
               PLANO COMPLETO
             </h2>
           </div>
