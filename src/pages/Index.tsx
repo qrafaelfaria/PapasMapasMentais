@@ -12,14 +12,14 @@ import tshirt6 from "@/assets/Libras06.png";
 import HeroCopa from "@/assets/HeroLibras.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
-import Feedback01 from "@/assets/Relato01.png";
-import Feedback02 from "@/assets/Relato02.png";
-import Feedback03 from "@/assets/Relato03.png";
-import Feedback04 from "@/assets/Relato04.png";
+import Feedback01 from "@/assets/FeedBack01.png";
+import Feedback02 from "@/assets/FeedBack02.png";
+import Feedback03 from "@/assets/FeedBack03.png";
+import Feedback04 from "@/assets/FeedBack04.png";
 import GarantiaImage from "@/assets/Garantia.webp";
-import Bonus01 from "@/assets/CalendarioBonus.png";
-import Bonus02 from "@/assets/MarcadorBonus.png";
-import Bonus03 from "@/assets/ImpressaoBonus.png";
+import Bonus01 from "@/assets/AntiBonus.png";
+import Bonus02 from "@/assets/FixacaoBonus.png";
+import Bonus03 from "@/assets/ConversacaoBonus.png";
 
 const CHECKOUT_URL = "#checkout";
 const PREMIUM_CHECKOUT_URL = "https://pay.wiapy.com/tJV7JGyD6dd";
@@ -63,22 +63,22 @@ const tshirts = [
 
 const bonuses = [
   {
-    title: "Calendário dos Papas Católicos",
-    desc: "Calendário Premium tematizado com os últimos 12 Papas Católicos pronto para imprimir e usar.",
+    title: "Guia Anti Erros em Libras",
+    desc: "Evite os erros mais comuns cometidos por iniciantes e aprenda a se comunicar em Libras com mais clareza, confiança e naturalidade.",
     old: "R$9,90",
     imageSrc: Bonus01,
     isBonus: true,
   },
   {
-    title: "Marcadores Premium dos Papas Católicos",
-    desc: "Marcadores Premium de 5 x 15 cm prontos para imprimir e usar.",
+    title: "Caderno de Exercícios de Fixação",
+    desc: "Pratique os conteúdos aprendidos com atividades simples e objetivas, fortalecendo sua memória e acelerando seu desenvolvimento em Libras.",
     old: "R$14,90",
     imageSrc: Bonus02,
     isBonus: true,
   },
   {
-    title: "Guia da Impressão Perfeita",
-    desc: "O passo a passo completo para imprimir seus materiais com qualidade profissional: papel recomendado, gramatura ideal, plastificação, como recortar e dicas extras de cuidados.",
+    title: "Guia de Conversação Imediata",
+    desc: "Aprenda frases e expressões essenciais para situações do dia a dia, permitindo que você comece a se comunicar em Libras desde os primeiros estudos.",
     old: "R$24,90",
     imageSrc: Bonus03,
     isBonus: true,
