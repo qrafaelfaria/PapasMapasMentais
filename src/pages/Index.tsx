@@ -179,7 +179,7 @@ const Index = () => {
             {/* Decorative notch */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-2 bg-foreground/80 rounded-full"></div>
 
-            <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
+            <div className="space-y-6 text-lg sm:text-base text-foreground/70 leading-relaxed">
               <p className="font-medium text-lg sm:text-lg">
                Um material estruturado para facilitar a fixação dos sinais de forma simples, visual e organizada.
               </p>
@@ -237,7 +237,7 @@ const Index = () => {
             ].map((item, idx) => (
               <div 
                 key={idx}
-                className="flex gap-4 p-5 bg-white border border-border/60 border-l-4 border-l-primary rounded-2xl shadow-sm"
+                className="flex gap-4 p-5 bg-card border border-border/60 border-l-4 border-l-primary rounded-2xl shadow-sm"
               >
                 <div className="space-y-1">
                   <h3 className="font-bold text-foreground text-lg leading-tight">
@@ -283,7 +283,7 @@ const Index = () => {
             ].map((item, idx) => (
               <div 
                 key={idx}
-                className={`flex items-center gap-4 p-4 border border-2 border-border/10 rounded-2xl relative ${item.emoji === "🎁" ? "border-beam" : "bg-white"}`}
+                className={`flex items-center gap-4 p-4 border border-2 border-border/10 rounded-2xl relative ${item.emoji === "🎁" ? "border-beam" : "bg-card"}`}
               >
                 <div className="text-2xl shrink-0 z-10">
                   {item.emoji}
@@ -328,7 +328,7 @@ const Index = () => {
               Plano Completo você vai levar <strong>3 SUPER BÔNUS!</strong>
             </p>
             
-            <p className="text-black text-lg sm:text-xl font-bold italic underline mb-4">
+            <p className="text-foreground text-lg sm:text-xl font-bold italic underline mb-4">
               (se comprar depois não ganha)
             </p>
             

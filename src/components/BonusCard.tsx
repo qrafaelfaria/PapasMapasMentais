@@ -28,7 +28,7 @@ const BonusCard: React.FC<BonusCardProps> = ({
         {showBonusLabel && bonusNumber && (
           <div className="text-base font-bold text-foreground bg-gold px-2 py-0.5 rounded-full">Bônus #{bonusNumber}</div>
         )}
-        <div className="mt-1 text-xl font-black text-black leading-snug">{title}</div>
+        <div className="mt-1 text-xl font-black text-foreground leading-snug">{title}</div>
         <p className="mt-2 text-sm text-muted-foreground">{description}</p>
         {showFreeBadge && (
           <div className="mt-4 flex items-center justify-center gap-2">

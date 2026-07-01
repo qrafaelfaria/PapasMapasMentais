@@ -8,53 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* 50 Papas em Mapas Mentais Theme: Cream, Gold, Black */
-    --background: 40 30% 94%; /* Warm cream background */
-    --foreground: 240 10% 5%; /* Deep black text */
+    /* Libras Theme: Vibrant Purple, Green, Pink, Yellow, Blue */
+    --background: 0 0% 100%; /* White background */
+    --foreground: 260 30% 15%; /* Deep purple text */
 
-    --card: 40 20% 97%; /* Off-white card */
-    --card-foreground: 240 10% 5%;
+    --card: 0 0% 100%;
+    --card-foreground: 260 30% 15%;
 
-    --popover: 40 20% 97%;
-    --popover-foreground: 240 10% 5%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 30% 15%;
 
-    --primary: 40 70% 45%; /* Rich gold */
-    --primary-foreground: 240 10% 5%;
+    --primary: 280 75% 55%; /* Deep magenta/purple */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 40 40% 90%; /* Light cream */
-    --secondary-foreground: 40 70% 35%;
+    --secondary: 160 65% 45%; /* Bright green */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 40 25% 88%;
-    --muted-foreground: 240 5% 30%;
+    --muted: 260 15% 94%;
+    --muted-foreground: 260 10% 40%;
 
-    --accent: 40 70% 40%; /* Deep gold */
+    --accent: 330 80% 60%; /* Bright pink */
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 60% 45%;
+    --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --urgency: 40 70% 45%; /* Gold for urgency */
-    --urgency-foreground: 240 10% 5%;
+    --urgency: 200 80% 55%; /* Bright blue for urgency */
+    --urgency-foreground: 0 0% 100%;
 
-    --success: 120 30% 40%;
+    --success: 160 65% 45%; /* Bright green */
     --success-foreground: 0 0% 100%;
 
-    --gold: 40 70% 50%; /* Primary gold */
-    --gold-bright: 40 85% 65%;
-    --gold-deep: 40 60% 35%;
+    --gold: 50 95% 55%; /* Vibrant yellow */
+    --gold-bright: 50 100% 65%;
+    --gold-deep: 45 90% 45%;
 
-    --border: 40 20% 80%;
-    --input: 40 20% 80%;
-    --ring: 40 70% 45%;
+    --border: 260 20% 85%;
+    --input: 260 20% 85%;
+    --ring: 280 75% 55%;
 
     --radius: 1rem;
 
-    --gradient-gold: linear-gradient(135deg, hsl(40 85% 65%), hsl(40 60% 35%));
-    --gradient-urgency: linear-gradient(135deg, hsl(40 70% 50%), hsl(40 60% 35%));
-    --gradient-dark: linear-gradient(180deg, hsl(240 10% 15%), hsl(240 10% 5%));
-    --shadow-gold: 0 10px 40px -10px hsl(40 70% 50% / 0.4);
-    --shadow-urgency: 0 10px 30px -8px hsl(40 70% 50% / 0.4);
-    --shadow-card: 0 8px 30px -10px hsl(240 10% 5% / 0.15);
+    --gradient-gold: linear-gradient(135deg, hsl(50 100% 65%), hsl(45 90% 45%));
+    --gradient-urgency: linear-gradient(135deg, hsl(280 75% 60%), hsl(330 80% 55%));
+    --gradient-dark: linear-gradient(180deg, hsl(260 40% 20%), hsl(260 40% 10%));
+    --shadow-gold: 0 10px 40px -10px hsl(50 95% 55% / 0.4);
+    --shadow-urgency: 0 10px 30px -8px hsl(200 80% 55% / 0.4);
+    --shadow-card: 0 8px 30px -10px hsl(260 30% 15% / 0.15);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
