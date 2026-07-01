@@ -12,7 +12,7 @@ import tshirt6 from "@/assets/Libras06.png";
 import HeroCopa from "@/assets/HeroLibras.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
-import Feedback01 from "@/assets/FeedBack01.png";
+import Feedback01 from "@/assets/FeedBack00.png";
 import Feedback02 from "@/assets/FeedBack02.png";
 import Feedback03 from "@/assets/FeedBack03.png";
 import Feedback04 from "@/assets/FeedBack04.png";
