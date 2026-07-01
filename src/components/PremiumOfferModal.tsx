@@ -27,8 +27,8 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-[95%] sm:max-w-[420px] rounded-[32px] p-0 border-none bg-background overflow-hidden gap-0">
         {/* Urgency Header */}
-        <div className="bg-secondary/40 py-2.5 px-4 flex items-center justify-center gap-2">
-          <span className="text-primary font-black text-[11px] sm:text-[13px] uppercase tracking-wider flex items-center gap-1.5">
+        <div className="bg-muted py-2.5 px-4 flex items-center justify-center gap-2">
+          <span className="text-foreground font-black text-[11px] sm:text-[13px] uppercase tracking-wider flex items-center gap-1.5">
             ⚠️ ESPERA! NÃO VÁ EMBORA AINDA
           </span>
         </div>
@@ -37,12 +37,12 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
           <h2 className="text-[28px] sm:text-[32px] font-black text-foreground leading-tight mb-1">
             PACOTE PREMIUM
           </h2>
-          <p className="text-accent font-bold text-lg sm:text-xl mb-6">
+          <p className="text-primary font-bold text-lg sm:text-xl mb-6">
             com um desconto especial!
           </p>
 
           {/* Bonus Box */}
-          <div className="w-full bg-secondary border-2 border-border rounded-2xl p-4 sm:p-5 mb-8">
+          <div className="w-full bg-muted border-2 border-border rounded-2xl p-4 sm:p-5 mb-8">
             <div className="flex items-center gap-2 justify-center mb-4">
               <span className="text-xl">🎁</span>
               <span className="text-primary font-black text-sm sm:text-base uppercase tracking-tight">
@@ -57,8 +57,8 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
                 "Bônus 3 - Guia da Impressão Perfeira",
               ].map((bonus, idx) => (
                 <li key={idx} className="flex items-center gap-2.5">
-                  <div className="flex-shrink-0 w-5 h-5 rounded-md bg-success flex items-center justify-center">
-                    <Check className="w-3.5 h-3.5 text-success-foreground stroke-[4]" />
+                  <div className="flex-shrink-0 w-5 h-5 rounded-md bg-primary flex items-center justify-center">
+                    <Check className="w-3.5 h-3.5 text-primary-foreground stroke-[4]" />
                   </div>
                   <span className="text-foreground font-bold text-[13px] sm:text-[15px]">
                     {bonus}
@@ -71,12 +71,12 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
           {/* Pricing Section */}
           <div className="flex flex-col items-center mb-8">
             <div className="flex items-center gap-1.5 mb-1">
-              <span className="text-accent text-sm sm:text-base font-bold">de</span>
-              <span className="text-accent text-sm sm:text-base font-bold line-through">R$ 27,00</span>
-              <span className="text-accent text-sm sm:text-base font-bold">por apenas</span>
+              <span className="text-muted-foreground text-sm sm:text-base font-bold">de</span>
+              <span className="text-muted-foreground text-sm sm:text-base font-bold line-through">R$ 27,00</span>
+              <span className="text-muted-foreground text-sm sm:text-base font-bold">por apenas</span>
             </div>
             
-            <div className="text-[52px] sm:text-[64px] font-black text-success leading-none mb-2">
+            <div className="text-[52px] sm:text-[64px] font-black text-primary leading-none mb-2">
               R$ 19,90
             </div>
 
@@ -88,7 +88,7 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
           <div className="w-full space-y-4">
             <Button
               onClick={onConfirm}
-              className="w-full h-16 bg-success hover:bg-success/90 text-success-foreground rounded-2xl text-lg sm:text-xl font-black uppercase tracking-wide active:translate-y-1 transition-all"
+              className="w-full h-16 bg-primary hover:bg-primary/90 text-primary-foreground rounded-2xl text-lg sm:text-xl font-black uppercase tracking-wide active:translate-y-1 transition-all"
             >
               QUERO MEU DESCONTO!
             </Button>
