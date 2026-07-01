@@ -44,7 +44,7 @@ const HeadlineFont = "font-['Arial Black'] tracking-wide font-black leading-[1.1
 const HeroCTA = ({ children, href = CHECKOUT_URL, pulse = true }: { children: React.ReactNode; href?: string; pulse?: boolean }) => (
   <a
     href={href}
-    className={`block w-full text-center rounded-2xl px-6 py-5 text-lg font-extrabold uppercase tracking-wide bg-gradient-urgency text-urgency-foreground shadow-urgency active:scale-[0.98] transition-transform ${pulse ? "animate-pulse-cta" : ""}`}
+    className={`block w-full text-center rounded-2xl px-6 py-5 text-lg font-extrabold uppercase tracking-wide bg-gradient-urgency text-urgency-foreground active:scale-[0.98] transition-transform`}
   >
     {children}
   </a>

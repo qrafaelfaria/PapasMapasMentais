@@ -88,7 +88,7 @@ const PremiumOfferModal: React.FC<PremiumOfferModalProps> = ({
           <div className="w-full space-y-4">
             <Button
               onClick={onConfirm}
-              className="w-full h-16 bg-success hover:bg-success/90 text-success-foreground rounded-2xl text-lg sm:text-xl font-black uppercase tracking-wide shadow-[0_4px_0_hsl(var(--success-foreground)/0.2)] active:translate-y-1 active:shadow-none transition-all"
+              className="w-full h-16 bg-success hover:bg-success/90 text-success-foreground rounded-2xl text-lg sm:text-xl font-black uppercase tracking-wide active:translate-y-1 transition-all"
             >
               QUERO MEU DESCONTO!
             </Button>
