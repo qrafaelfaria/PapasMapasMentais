@@ -2,12 +2,12 @@ import { useEffect, useMemo, useState, useRef } from "react";
 import { Play, Check, X, ChevronDown, ChevronsDown, Flame, Clock, ShieldCheck, Zap, BookOpen, Trophy, Crown, Library, Dices, Palette, Type, CheckSquare, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import tshirt1 from "@/assets/Papa 01.png";
-import tshirt2 from "@/assets/Papa 02.png";
-import tshirt3 from "@/assets/Papa 03.png";
-import tshirt4 from "@/assets/Papa 04.png";
-import tshirt5 from "@/assets/Papa 05.png";
-import tshirt6 from "@/assets/Papa 06.png";
+import tshirt1 from "@/assets/Libras01.png";
+import tshirt2 from "@/assets/Libras02.png";
+import tshirt3 from "@/assets/Libras03.png";
+import tshirt4 from "@/assets/Libras04.png";
+import tshirt5 from "@/assets/Libras05.png";
+import tshirt6 from "@/assets/Libras06.png";
 
 import HeroCopa from "@/assets/HeroPapa.png";
 import BonusCard from "@/components/BonusCard";
@@ -160,7 +160,7 @@ const Index = () => {
           </div>
 
           <h1 className={`${HeadlineFont} text-[44px] sm:text-5xl text-primary`}>
-            <span className="text-foreground">Entenda a História de cada Papa</span> da Igreja Católica
+            <span className="text-foreground">60 Mapas Mentais para Aprender Libras</span> de Forma Visual e Prática
             <br />
           </h1>
 
@@ -181,7 +181,7 @@ const Index = () => {
 
             <div className="space-y-6 text-lg sm:text-base text-black/70 leading-relaxed">
               <p className="font-medium text-lg sm:text-lg">
-               Conheça a história, as contribuições, as principais realizações, os desafios e o legado dos grandes Papas Católicos de forma simples, visual e organizada.
+               Um material estruturado para facilitar a fixação dos sinais de forma simples, visual e organizada.
               </p>
             </div>
           </div>
@@ -206,7 +206,7 @@ const Index = () => {
             {tshirts.map((t, index) => (
               <div
                 key={`${t.alt}-${index}`}
-                className="snap-center shrink-0 w-[100%] aspect-[16/9] rounded-2xl overflow-hidden"
+                className="snap-center shrink-0 w-[100%] aspect-[16/12] overflow-hidden"
               >
                 <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
@@ -220,11 +220,11 @@ const Index = () => {
             {[
               { 
                 icon: "💰", 
-                title: "Material Pronto para imprimir em A4.", 
+                title: "Material pronto para imprimir em A4.", 
               },
               { 
                 icon: "✂️", 
-                title: "História dos Papas Católicos com linha do tempo e contribuições para a Igreja.",
+                title: "Comunicação prática e simples para o dia a dia.",
               },
               { 
                 icon: "✏️", 
@@ -232,7 +232,7 @@ const Index = () => {
               },
               { 
                 icon: "✅", 
-                title: "Ideal para estudo, catequese e formação católica.",
+                title: "Ideal para estudo, professores e mercado de trabalho.",
               },
             ].map((item, idx) => (
               <div 
@@ -270,12 +270,14 @@ const Index = () => {
         <section className="mt-4">
           <div className="space-y-3">
             {[
-              { emoji: "✅", text: "50 Mapas mentais prontos dos principais papas católicos." },
-              { emoji: "✅", text: "Suas contribuições para a Igreja." },
-              { emoji: "✅", text: "Principais realizações e desafios enfrentados." },
-              { emoji: "✅", text: "Eventos marcantes e contexto histórico." },
-              { emoji: "✅", text: "Legado deixado e frase marcante." },
-              { emoji: "✅", text: "Linha do tempo." },
+              { emoji: "✅", text: "60 Mapas Mentais para Aprender Libras de Forma Visual e Prática." },
+              { emoji: "✅", text: "Primeiros Passos em Libras." },
+              { emoji: "✅", text: "Comunicação Essencial." },
+              { emoji: "✅", text: "Tempo, Calendário e Números em Libras." },
+              { emoji: "✅", text: "Família e Pessoas." },
+              { emoji: "✅", text: "Sentimentos e Adjetivos." },
+              { emoji: "✅", text: "Escola, Trabalho e Alimentação." },
+              { emoji: "✅", text: "Cotidiano, Natureza e Conversação." },
               { emoji: "✅", text: "Material em PDF para acessar, estudar e imprimir." },
               { emoji: "🎁", text: "Bônus exclusivos no Plano Completo." },
             ].map((item, idx) => (
