@@ -9,7 +9,7 @@ import tshirt4 from "@/assets/Libras04.png";
 import tshirt5 from "@/assets/Libras05.png";
 import tshirt6 from "@/assets/Libras06.png";
 
-import HeroCopa from "@/assets/HeroPapa.png";
+import HeroCopa from "@/assets/HeroLibras.png";
 import BonusCard from "@/components/BonusCard";
 import PremiumOfferModal from "@/components/PremiumOfferModal";
 import Feedback01 from "@/assets/Relato01.png";
@@ -206,7 +206,7 @@ const Index = () => {
             {tshirts.map((t, index) => (
               <div
                 key={`${t.alt}-${index}`}
-                className="snap-center shrink-0 w-[100%] aspect-[16/12] overflow-hidden"
+                className="snap-center shrink-0 w-[80vw] overflow-hidden"
               >
                 <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
               </div>
@@ -311,7 +311,7 @@ const Index = () => {
               {tshirts.map((t, index) => (
                 <div
                   key={`${t.alt}-2-${index}`}
-                  className="snap-center shrink-0 w-[100%] aspect-[16/9] rounded-2xl overflow-hidden"
+                  className="snap-center shrink-0 w-[80vw] overflow-hidden"
                 >
                   <img src={t.src} alt={t.alt} loading="lazy" className="w-full h-full object-contain block" />
                 </div>
@@ -324,11 +324,11 @@ const Index = () => {
         <section className="py-6 mt-4">
           <div className="bg-accent -mx-4 px-6 py-10 mb-8 text-center text-white">
             <p className="text-lg sm:text-xl font-medium leading-tight mb-6">
-              🎁 Além dos <strong> 50 Mapas Mentais dos Papas Católicos</strong>, ao adquirir o <br />
+              🎁 Além dos <strong> 60 Mapas Mentais de Libras</strong>, ao adquirir o <br />
               Plano Completo você vai levar <strong>3 SUPER BÔNUS!</strong>
             </p>
             
-            <p className="text-gold text-lg sm:text-xl font-bold italic underline mb-4">
+            <p className="text-black text-lg sm:text-xl font-bold italic underline mb-4">
               (se comprar depois não ganha)
             </p>
             
