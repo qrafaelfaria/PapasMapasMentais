@@ -155,7 +155,7 @@ const Index = () => {
       <div className="mx-auto w-full max-w-[480px] px-4">
         {/* HERO */}
         <section className="pt-6 pb-10 text-center">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-secondary border border-border px-3 py-1 text-xs font-semibold text-muted-foreground mb-4">
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-background border border-border px-3 py-1 text-xs font-semibold text-muted-foreground mb-4">
             ⭐⭐⭐⭐⭐ +4.300 avaliações
           </div>
 
